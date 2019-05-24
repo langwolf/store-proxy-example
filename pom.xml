@@ -137,16 +137,4 @@
             <version>${org.springframework.version}</version>
         </dependency>
     </dependencies>
-    <repositories>
-        <repository>
-            <id>netease-mvn-repo-snapshot</id>
-            <name>netease-mvn-repo-snapshot</name>
-            <url>http://mvn.hz.netease.com/artifactory/libs-snapshots</url>
-        </repository>
-        <repository>
-            <id>netease-mvn-repo-release</id>
-            <name>netease-mvn-repo-release</name>
-            <url>http://mvn.hz.netease.com/artifactory/libs-releases</url>
-        </repository>
-    </repositories>
 </project>
