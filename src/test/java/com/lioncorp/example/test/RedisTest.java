@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes={SpringConfig.class})
-public class RecallTest {
+public class RedisTest {
 
     @Resource(name=IRedisDao.COMMON_REDIS)
     private IRedisDao redisDao;
@@ -20,8 +20,5 @@ public class RecallTest {
     public void redisTest(){
         System.out.println(redisDao.get("gsstest"));
     }
-    @Test
-    public void kafkaTest(){
 
-    }
 }
